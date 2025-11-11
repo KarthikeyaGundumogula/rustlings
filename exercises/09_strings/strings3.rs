@@ -1,5 +1,7 @@
 fn trim_me(input: &str) -> &str {
     // TODO: Remove whitespace from both ends of a string.
+    println!("{}",input.len()-1);
+    &input[1..input.len()-1]
 }
 
 fn compose_me(input: &str) -> String {
