@@ -7,7 +7,7 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     let mut v: Vec<i32> = Vec::new();
     for i in a {
         v.push(i);
-    }
+            }
     (a, v)
 }
 
