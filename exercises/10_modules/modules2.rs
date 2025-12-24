@@ -3,7 +3,6 @@
 
 mod delicious_snacks {
     // TODO: Add the following two `use` statements after fixing them.
-    
 
     pub mod fruits {
         pub const PEAR: &str = "Pear";

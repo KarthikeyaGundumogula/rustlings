@@ -27,20 +27,18 @@ impl Package {
     fn is_international(&self) -> bool {
         if self.sender_country != self.recipient_country {
             true
-        }
-        else{
+        } else {
             false
         }
-        
+
         //            ** Another method **             //
         // self.sender_country != self.recipient_country
-
     }
 
     // TODO: Add the correct return type to the function signature.
-    fn get_fees(&self, cents_per_gram: u32) -> u32{
+    fn get_fees(&self, cents_per_gram: u32) -> u32 {
         // TODO: Calculate the package's fees.
-        cents_per_gram*self.weight_in_grams
+        cents_per_gram * self.weight_in_grams
     }
 }
 
@@ -79,7 +77,7 @@ mod tests {
         let package = Package::new(sender_country, recipient_country, 1200);
 
         assert!(!package.is_international());
-    } 
+    }
 
     #[test]
     fn calculate_transport_fees() {

@@ -1,20 +1,20 @@
 fn trim_me(input: &str) -> &str {
     // TODO: Remove whitespace from both ends of a string.
     input.trim()
-//     let mut i=0;
-//     let mut j = input.len();
-//     let mut count = 0;
-//     for c in input.chars(){
-//         if c != ' ' {
-//             i = count;
-//             count =0;
-//             break 
-//         }
-//         else{
-//             count+=1
-//         }
-//     }
-//   &input[i..j]
+    //     let mut i=0;
+    //     let mut j = input.len();
+    //     let mut count = 0;
+    //     for c in input.chars(){
+    //         if c != ' ' {
+    //             i = count;
+    //             count =0;
+    //             break
+    //         }
+    //         else{
+    //             count+=1
+    //         }
+    //     }
+    //   &input[i..j]
 }
 
 fn compose_me(input: &str) -> String {
@@ -29,9 +29,7 @@ fn replace_me(input: &str) -> String {
     input.replace("cars", "balloons")
 }
 
-fn main() {
-
-}
+fn main() {}
 
 #[cfg(test)]
 mod tests {

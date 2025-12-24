@@ -35,11 +35,11 @@ mod tests {
         // }
 
         while let Some(i) = optional_integers.pop() {
-            if let Some(j) = i{
+            if let Some(j) = i {
                 assert_eq!(j, cursor);
                 cursor -= 1;
             }
-        } 
+        }
 
         assert_eq!(cursor, 0);
     }

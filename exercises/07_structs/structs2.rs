@@ -21,8 +21,7 @@ fn create_order_template() -> Order {
     }
 }
 
-fn main() {
-}
+fn main() {}
 
 #[cfg(test)]
 mod tests {
@@ -35,7 +34,7 @@ mod tests {
         // TODO: Create your own order using the update syntax and template above!
         let your_order = Order {
             name: String::from("Hacker in Rust"),
-            count:1,
+            count: 1,
             ..order_template
         };
 
